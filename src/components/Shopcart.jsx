@@ -15,7 +15,7 @@ import googleplay from "../assets/63eb1f55dc68c5ee83d0cbf8_GooglePay.png";
 export const Shopcart = () => {
   return (
     <footer className="mt-10 lg:p-10 p-5 font-poppins">
-      <div className="lg:flex lg:justify-between grid grid-cols-2">
+      <div className="lg:flex lg:justify-between grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2">
         <div className="lg:w-1/3  flex flex-col text-center">
           <div className="flex text-lg lg:text-4xl font-bold">
             <BsCartDash className="mr-3" /> Shopcart
@@ -26,11 +26,11 @@ export const Shopcart = () => {
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 xs:hidden xm:flex">
             <h1 className="font-bold">Accepted Payments</h1>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 mt-5">
+          <div className="grid grid-cols-2 lg:grid-cols-4 mt-5 xs:hidden xm:grid">
             <h1>stripe</h1>
             <h1>visa</h1>
             <h1>mastercard</h1>
@@ -44,7 +44,7 @@ export const Shopcart = () => {
 
         <div className=" lg:w-1/6 text-center">
           <div>
-            <h1 className="font-bold text-lg">Department</h1>
+            <h1 className="font-bold text-lg xs:mt-5">Department</h1>
           </div>
           <div>
             <p className="mt-3 text-md hover:indent-8 duration-500 hover:text-orange-500">
@@ -93,7 +93,7 @@ export const Shopcart = () => {
         </div>
         <div className=" lg:w-1/6 text-center">
           <div>
-            <h1 className="font-bold text-lg">About Us</h1>
+            <h1 className="font-bold text-lg xs:mt-5">About Us</h1>
           </div>
           <div>
             <p className="mt-3 text-md hover:indent-8 duration-500 hover:text-orange-500">
@@ -127,7 +127,7 @@ export const Shopcart = () => {
         </div>
         <div className=" lg:w-1/6 text-center">
           <div>
-            <h1 className="font-bold text-lg">Services</h1>
+            <h1 className="font-bold text-lg xs:mt-5">Services</h1>
           </div>
           <div>
             <p className="mt-3 text-md hover:indent-8 duration-500 hover:text-orange-500">
@@ -149,7 +149,7 @@ export const Shopcart = () => {
         </div>
         <div className="lg:w-1/6 text-center">
           <div>
-            <h1 className="font-bold text-lg">Help</h1>
+            <h1 className="font-bold text-lg xs:mt-5">Help</h1>
           </div>
           <div>
             <p className="mt-3 text-md hover:indent-8 duration-500 hover:text-orange-500">
@@ -175,7 +175,7 @@ export const Shopcart = () => {
       </div>
       <div className="border-b border-gray-200 mt-10"></div>
       <div className="lg:flex grid grid-cols-1 lg:justify-between mt-10">
-        <ul className="flex lg:w-1/3 w-full justify-between">
+        <ul className="flex flex-row xs:items-center xs:gap-2 xs:flex-col lg:w-1/3 w-full justify-between">
           <li className="flex items-center">
             <IoBriefcaseOutline className="mr-2" /> Become Seller
           </li>
@@ -186,7 +186,7 @@ export const Shopcart = () => {
             <FiHelpCircle className="mr-2" /> Help Center
           </li>
         </ul>
-        <ul className="flex w-full lg:mt-0 mt-5 lg:w-1/3 justify-around">
+        <ul className="flex w-full lg:mt-0 mt-5 lg:w-1/3 justify-around xs:flex-col flex-row xs:justify-center xs:items-center xs:gap-2">
           <li>Terms of Service</li>
           <li>Privacy and Policy</li>
         </ul>

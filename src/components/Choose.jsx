@@ -12,8 +12,8 @@ export const Choose = () => {
   return (
     <section className="mt-10 lg:p-10 p-5 text-2xl font-poppins">
       <h1 className="font-bold">Choose By Brand</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+      <div className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img
               className="hover:scale-110 duration-100"
@@ -26,7 +26,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img
               className="hover:scale-110 duration-100"
@@ -39,7 +39,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img className="hover:scale-110 duration-100" src={outlet} alt="" />
           </div>
@@ -48,7 +48,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img className="hover:scale-110 duration-100" src={stones} alt="" />
           </div>
@@ -57,7 +57,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img
               className="hover:scale-110 duration-100"
@@ -70,7 +70,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img className="hover:scale-110 duration-100" src={store} alt="" />
           </div>
@@ -79,7 +79,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img className="hover:scale-110 duration-100" src={target} alt="" />
           </div>
@@ -88,7 +88,7 @@ export const Choose = () => {
             <p className="text-xs">Delivery with in 24 hours</p>
           </div>
         </div>
-        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-200 hover:static border-transparent border">
+        <div className="hover:border hover:border-black flex rounded-lg justify-center items-center p-3 bg-gray-100 hover:static border-transparent border">
           <div className="mr-5">
             <img className="hover:scale-110 duration-100" src={bevmo} alt="" />
           </div>

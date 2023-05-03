@@ -6,9 +6,9 @@ import bag from "../assets/pexels-pixabay-159497.jpg";
 
 export const Discount = () => {
   return (
-    <section className="font-poppins lg:p-10 p-5 mt-10">
-      <h1 className="font-bold text-2xl pt-5">Get Up To 70% Off</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+    <section className="font-poppins lg:p-10 p-5 xs:mt-3 mt-10">
+      <h1 className="font-bold text-2xl xs:pt-0 pt-5">Get Up To 70% Off</h1>
+      <div className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
         <div className="rounded-lg overflow-hidden relative">
           <div className="absolute z-10 pointer-events-none p-5">
             <h1 className="font-bold text-2xl">Save</h1>

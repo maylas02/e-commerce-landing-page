@@ -14,102 +14,18 @@ export const Navbar = () => {
   };
 
   return (
-    // <nav className="font-roboto">
-    //   <div className="flex items-center bg-green-950 justify-between px-16  font-semibold tracking-wide text-sm py-1">
-    //     <ul className="flex items-center bg-gray-200 px-3 py-1">
-    //       <li className="mr-2">
-    //         <BsTelephone />
-    //       </li>
-    //       <li>+001234567890</li>
-    //     </ul>
-    //     <ul className="flex text-xs items-center bg-gray-200 px-3 py-1 w-2/5 justify-between">
-    //       <li>Get 50% Off on Selected Items</li>
-    //       <li>|</li>
-    //       <li>Shop Now</li>
-    //     </ul>
-    //     <ul className="flex items-center bg-gray-200 px-3 py-1 w-1/6 justify-between">
-    //       <li>Eng</li>
-    //       <li className="flex items-center">
-    //         <button>
-    //           <RxCaretDown />
-    //         </button>
-    //       </li>
-    //       <li>Location</li>
-    //       <li className="flex items-center">
-    //         <button>
-    //           <RxCaretDown />
-    //         </button>
-    //       </li>
-    //     </ul>
-    //   </div>
-
-    //   <div className="flex justify-between px-16 w-full bg-gray-100 font-semibold">
-    //     <ul className="bg-red-300 w-1/6 py-5">
-    //       <li className="flex items-center text-3xl font-black tracking-wide">
-    //         <BsCartDash className="mr-3 text-green-950" /> Shopcart
-    //       </li>
-    //     </ul>
-    //     <ul className="flex items-center bg-red-300 w-3/5 justify-between px-5">
-    //       <li className="flex items-center">
-    //         Category <RxCaretDown />
-    //       </li>
-    //       <li>Deals</li>
-    //       <li>What's new</li>
-    //       <li>Delivery</li>
-    //       <li>
-    //         <input
-    //           className="rounded-full px-5 py-2 placeholder:text-gray-400 placeholder:font-thin outline-blue-400"
-    //           type="text"
-    //           placeholder="Search Product"
-    //         />
-    //       </li>
-    //     </ul>
-    //     <ul className="flex bg-red-300 w-1/6 justify-between px-5">
-    //       <li className="flex items-center">
-    //         <VscAccount className="mr-2" /> Account
-    //       </li>
-    //       <li className="flex items-center">
-    //         <TbShoppingCartPlus className="mr-2" /> Cart
-    //       </li>
-    //     </ul>
-    //   </div>
-
-    //   <div className="lg:hidden flex absolute top-7 right-10">
-    //     <RxHamburgerMenu className="cursor-pointer" onClick={toggleMenu} />
-    //   </div>
-
-    //   {isMenuOpen && (
-    //     <div className="md:flex w-full lg:hidden">
-    //       <ul className="flex items-center bg-red-300 w-3/5 justify-between px-5">
-    //         <li className="flex items-center">
-    //           Category <RxCaretDown />
-    //         </li>
-    //         <li>Deals</li>
-    //         <li>What's new</li>
-    //         <li>Delivery</li>
-    //         <li>
-    //           <input
-    //             className="rounded-full px-5 py-2 placeholder:text-gray-400 placeholder:font-thin outline-blue-400"
-    //             type="text"
-    //             placeholder="Search Product"
-    //           />
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   )}
-    // </nav>
     <header>
       <nav className="font-roboto text-sm lg:p-0 p-2 bg-green-900 text-white">
         <div className="lg:flex lg:items-center lg:justify-between lg:px-10">
           <ul className="flex flex-col lg:flex-row lg:justify-between lg:w-1/2">
-            <li className="flex justify-center items-center">
+            <li className="flex justify-center items-center xs:mt-1">
               <BsTelephone /> +001234567890
             </li>
-            <li className="flex justify-center mt-2 mb-2 cursor-pointer">
+            <li className="flex justify-center mt-2 mb-2 cursor-pointer xs:hidden xm:flex">
               Get 50% Off on Selected Items | Shop Now
             </li>
           </ul>
-          <ul className="flex gap-10 justify-center text-white">
+          <ul className="flex gap-10 justify-center text-white xm:mt-0 xs:mt-3">
             <li>
               <select
                 className="bg-transparent cursor-pointer"
@@ -124,7 +40,7 @@ export const Navbar = () => {
                 </option>
               </select>
             </li>
-            <li>
+            <li className="">
               <select
                 className="bg-transparent cursor-pointer"
                 name="location"
@@ -161,7 +77,7 @@ export const Navbar = () => {
               />
             </li>
           </ul>
-          <ul className="flex lg:w-1/6 w-2/5 justify-between text-lg">
+          <ul className="flex lg:w-1/6 w-2/5 justify-between text-lg lg:flex xs:hidden xm:flex">
             <li className="flex items-center cursor-pointer hover:text-amber-500">
               <VscAccount className="mr-2" /> Account
             </li>
@@ -176,8 +92,8 @@ export const Navbar = () => {
           </ul>
         </div>
         {isMenuOpen && (
-          <div className="">
-            <ul className="flex flex-col justify-center items-center gap-5">
+          <div className="relative">
+            <ul className="flex absolute xs:z-10 xs:w-full xs:h-auto xs:bg-white flex-col justify-center items-center gap-5">
               <li>Category</li>
               <li>Deals</li>
               <li>What's New</li>

@@ -10,7 +10,7 @@ export const Seller = () => {
     <section className="mt-5 lg:p-10 p-5 font-poppins">
       <h1 className="text-2xl font-bold mt-5">Most Selling Products</h1>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 pt-5 pb-2 overflow-hidden">
+      <div className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 lg:grid-cols-3 gap-10 pt-5 pb-2 overflow-hidden">
         <div>
           <div className="bg-gray-100 rounded-lg h-60 relative overflow-hidden">
             <img

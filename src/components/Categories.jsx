@@ -8,12 +8,12 @@ import travel from "../assets/pexels-dids-1447474__1_-removebg-preview.png";
 
 export const Categories = () => {
   return (
-    <section className="mt-10 font-poppins">
-      <h1 className="pl-5 lg:pl-10 pt-10 text-2xl font-poppins font-bold">
+    <section className="mt-10 xs:mt-0 font-poppins">
+      <h1 className="pl-5 xs:text-xl xs:text-center lg:pl-10 pt-10 text-2xl font-poppins xs:font-bold font-bold">
         Shop Our Top Categories
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-6 lg:p-10 p-5 gap-4 cursor-pointer">
-        <div className="bg-gray-500 flex justify-center rounded-lg overflow-hidden lg:h-auto h-80">
+        <div className="bg-gray-500 flex justify-center rounded-lg overflow-hidden lg:h-auto xs:h-44 xm:h-60 h-80">
           <div className="absolute mt-5 text-white text-2xl">Furniture</div>
           <img
             className="hover:scale-125 w-full h-full hover:duration-300 object-contain"
@@ -31,7 +31,7 @@ export const Categories = () => {
           />
         </div>
 
-        <div className="flex justify-center bg-red-800 rounded-lg overflow-hidden">
+        <div className="flex justify-center bg-red-800 rounded-lg overflow-hidden xs:h-44 xm:h-60">
           <div className="absolute mt-5 text-white text-2xl">Books</div>
           <img
             className="object-contain hover:scale-125 w-full h-full hover:duration-300  mr-10 mb-10"
@@ -39,7 +39,7 @@ export const Categories = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-center bg-green-400 rounded-lg overflow-hidden">
+        <div className="flex justify-center bg-green-400 rounded-lg overflow-hidden xs:h-44 xm:h-60">
           <div className="absolute mt-5 text-white text-2xl">Tech</div>
           <img
             className="object-contain hover:scale-125 w-full h-full hover:duration-300 "
@@ -47,7 +47,7 @@ export const Categories = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-center bg-red-200 rounded-lg overflow-hidden lg:h-auto h-80">
+        <div className="flex justify-center bg-red-200 rounded-lg overflow-hidden lg:h-auto xs:h-44 xm:h-60 h-80">
           <div className="absolute mt-5 text-white text-2xl">Sneakers</div>
           <img
             className="object-contain hover:scale-125 w-full h-full hover:duration-300 "

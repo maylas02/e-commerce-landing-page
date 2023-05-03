@@ -14,7 +14,7 @@ export const BestSeller = () => {
   return (
     <section className="mt-10 lg:p-10 p-5 font-poppins">
       <h1 className="text-2xl font-bold">Best Selling Store</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+      <div className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
         <div className="">
           <div className="relative overflow-hidden rounded-lg">
             <div className="absolute z-10 bottom-5 left-5">

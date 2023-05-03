@@ -12,7 +12,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 export const Beauty = () => {
   return (
-    <section className="grid grid-cols-2 lg:grid-cols-4 gap-5 p-5 lg:p-10 font-poppins">
+    <section className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-5 p-5 lg:p-10 font-poppins">
       <div>
         <div className="bg-gray-100 rounded-lg h-60 relative overflow-hidden">
           <img

@@ -6,7 +6,7 @@ export const Trending = () => {
   return (
     <section className="p-5 lg:p-10 mt-5 font-poppins">
       <h1 className="text-2xl font-bold">Trending Products For You!</h1>
-      <div className="grid grid-cols-2 mt-5 gap-5">
+      <div className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 mt-5 gap-5">
         <div className="relative overflow-hidden rounded-lg">
           <div className="absolute z-10 bottom-5 left-5">
             <h1 className="font-bold lg:text-2xl text-lg">Furniture Village</h1>

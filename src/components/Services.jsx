@@ -7,7 +7,7 @@ export const Services = () => {
   return (
     <section className="mt-10 lg:p-10 p-5 font-poppins">
       <h1 className="text-2xl font-bold">Services To Help You Shop</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+      <div className="grid xs:grid-cols-1 xm:grid-cols-2 grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
         <div>
           <div className="rounded-lg overflow-hidden relative">
             <div className="absolute z-10 pointer-events-none pl-7 pt-7">
